@@ -1,0 +1,11 @@
+POST http://127.0.0.1:5000/departement/add
+Content-Type: application/json
+
+{
+    "name": "Elle",
+    "location": "xxx"
+}
+
+###
+
+GET http://127.0.0.1:5000/users/get
